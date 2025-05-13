@@ -7,7 +7,7 @@ Originally written in **Elixir** for speed and efficiency, we ported the generat
 
 The Elixir version is roughly 30% faster than the python version and generates the 14'000 thousand  puzzle instances we evaluate in the paper in about 20 seconds on a Apple M4 Max processor.
 
-## 1  Quick start
+## Quick start
 
 Running CogniLoad without CLI parameters generates the puzzles in the default grid configuration that is reported in the paper.
 
@@ -32,7 +32,7 @@ elixir cogniload.exs
 
 ---
 
-## 2  Command-line arguments
+## Command-line arguments
 
 The two scripts expose the CLI parameters for the puzzle generation. The defaults are identical and set to the parameters evaluated in the paper.
 
@@ -57,7 +57,7 @@ python cogniload.py --num_grid 50 --ratio_grid 10 --difficulty_grid 5 --number_o
 
 ---
 
-## 3  Output structure
+## Output structure
 
 | Path | Contents |
 |:---|:---|
@@ -70,7 +70,7 @@ The filename of the generated puzzle instances includes the puzzle parameters, a
 Example: A puzzle with the name `20_5_10_102133_yellow.txt` consists of 20 statements, has difficulty 5, contains 10 needles, has the random puzzle id 102133, and the solution is the word "yellow".
 
 ---
-## 5  Dataset on Huggingface
+## Dataset on Huggingface
 
 The original dataset with the puzzles evaluated in the paper is provided at [https://huggingface.co/datasets/dkfo/cogniload](https://huggingface.co/datasets/dkfo/cogniload).
 
@@ -78,13 +78,13 @@ The data is enriched with Croissant metadata and includes the puzzle text, the p
 
 ---
 
-## 5  Contributing
+## Contributing
 
 Bug reports and PRs are very welcome! For substantial changes please open an issue first.
 
 ---
 
-## 5  License
+## License
 
 This code and the dataset are provided under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
