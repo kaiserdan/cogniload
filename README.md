@@ -72,7 +72,7 @@ Example: A puzzle with the name `20_5_10_102133_yellow.txt` consists of 20 state
 ---
 ## Dataset on Huggingface
 
-The original dataset with the puzzles evaluated in the paper is provided at [https://huggingface.co/datasets/dkfo/cogniload](https://huggingface.co/datasets/dkfo/cogniload).
+The original dataset with the puzzles evaluated in the paper is provided at [https://huggingface.co/datasets/cogniloadteam/cogniload](https://huggingface.co/datasets/cogniloadteam/cogniload).
 
 The data is enriched with Croissant metadata and includes the puzzle text, the parameter configuration of the puzzle, and the generated metadata in a jsonl format.
 
